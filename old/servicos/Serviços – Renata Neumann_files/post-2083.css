@@ -1,0 +1,20 @@
+.elementor-2083 .elementor-element.elementor-element-qk3tx0p{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:0px;padding:0px 0px 0px 0px;}.elementor-2083 .elementor-element.elementor-element-qk3tx0p > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-2083 .elementor-element.elementor-element-qk3tx0p a{color:#ffffff;}.elementor-2083 .elementor-element.elementor-element-vrzcrna > .elementor-element-populated{background-color:#a6324d;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-2083 .elementor-element.elementor-element-vrzcrna > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-2083 .elementor-element.elementor-element-pwhqj3l > .elementor-widget-container{background-color:#a6324d;}.elementor-2083 .elementor-element.elementor-element-pwhqj3l .elementor-widget-container{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}/* Start custom CSS for shortcode, class: .elementor-element-pwhqj3l */.elementor-element-vh93f08 {
+    z-index:100!important;
+}
+.top-menu .menu .menu{
+    background: #00693B!important;
+    border: 0!important;
+}
+.off-canvas {
+    background: #00693B;
+    color: #fff!important;
+}
+.off-canvas a{
+    color: #fff!important;
+}
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after, .is-accordion-submenu-parent > a::after {
+	border-color: #fff transparent transparent!important;
+}
+#main > div > div> div> section:first-child + section{
+z-index:100;
+}/* End custom CSS */
