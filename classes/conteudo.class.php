@@ -69,9 +69,9 @@ class conteudo {
     public function telaTopClass($op){
 
         switch ($op) {
-            case 'inst':
+            case 'consult':
                 $home   = "";
-                $inst   = " class='active'";
+                $cons   = " class='active'";
                 $espec  = "";
                 $profis = "";
                 $cont   = "";
@@ -79,7 +79,7 @@ class conteudo {
             
             case 'espec':
                 $home   = "";
-                $inst   = "";
+                $cons   = "";
                 $espec  = " class='active'";
                 $profis = "";
                 $cont   = "";
@@ -87,7 +87,7 @@ class conteudo {
             
             case 'profis':
                 $home   = "";
-                $inst   = "";
+                $cons   = "";
                 $espec  = "";
                 $profis = " class='active'";
                 $cont   = "";
@@ -95,7 +95,7 @@ class conteudo {
             
             case 'cont':
                 $home   = "";
-                $inst   = "";
+                $cons   = "";
                 $espec  = "";
                 $profis = "";
                 $cont   = " class='active'";
@@ -103,7 +103,7 @@ class conteudo {
             
             default:
                 $home   = " class='active'";
-                $inst   = "";
+                $cons   = "";
                 $espec  = "";
                 $profis = "";
                 $cont   = "";
@@ -142,15 +142,15 @@ class conteudo {
         echo "      <div class='navbar-collapse collapse'>";
         echo "      <ul class='nav navbar-nav'>";
         echo "          <li $home><a href='../index.php'>Home</a></li>";
-        echo "          <li class='dropdown' $inst>";
-        echo "              <a href='#' class='dropdown-toggle' data-toggle='dropdown' data-hover='dropdown' data-delay='0' data-close-others='false'>Institucional <span class='icon-angle-down'></span></a>";
-        echo "                  <ul class='dropdown-menu'>";
-        echo "                      <li><a href='../projeto/'>Sobre o projeto</a></li>";
-        echo "                      <li><a href='../servicos/'>Nossos Serviços</a></li>";
-        echo "                      <li><a href='../dicas/'>Dicas de saúde</a></li>";
-        echo "                  </ul>";
-        echo "          </li>";
-//        echo "          <li><a href='institucional/'>Institucional</a></li>";
+//        echo "          <li class='dropdown' $inst>";
+//        echo "              <a href='#' class='dropdown-toggle' data-toggle='dropdown' data-hover='dropdown' data-delay='0' data-close-others='false'>Institucional <span class='icon-angle-down'></span></a>";
+//        echo "                  <ul class='dropdown-menu'>";
+//        echo "                      <li><a href='../projeto/'>Sobre o projeto</a></li>";
+//        echo "                      <li><a href='../servicos/'>Nossos Serviços</a></li>";
+//        echo "                      <li><a href='../dicas/'>Dicas de saúde</a></li>";
+//        echo "                  </ul>";
+//        echo "          </li>";
+        echo "          <li $cons><a href='../consultorio/'>Consultório</a></li>";
         echo "          <li $espec><a href='../especialidades/'>Especialidades</a></li>";
         echo "          <li $profis><a href='../profissionais/'>Profissionais</a></li>";
         echo "          <li $cont><a href='../contato/'>Contato</a></li>";
@@ -318,28 +318,37 @@ class conteudo {
 //    echo "<section id='content'>";
     echo "<div class='container'>";
     echo "      <div class='row'>";
-    echo "          <div class='col-lg-4'>";
-    echo "              <h4>Renata Neumann</h4>";
-    echo "            <img src='../img/perfil.jpg' alt='Renata Neumann' title='Renata Neumann' class='align-left' width='320' height='320'/>";
+    echo "        <div class='col-lg-1'>";
+    echo "            &nbsp;";
+    echo "        </div>";
+    echo "          <div class='col-lg-3'>";
+    echo "              <h4>Renata Neumann - CRP 05/41518</h4>";
+    echo "            <img src='../img/renata.jpg' alt='Renata Neumann' title='Renata Neumann' class='align-left' width='320' height='250'/>";
     echo "              <h5>Psicóloga e Psicoterapeuta</h5>";
+    echo "              <p style='text-align: justify;'>";
+    echo "                  <strong>Formada em Psicologia na Estácio de Sá e pós-graduada em Psicoterapia</strong>, elaborou longos anos de estudo de transtornos baseado aos públicos infantil, infanto-juvenil, juvenil e adultos.";
+    echo "              </p>";
+    echo "        </div>";
+    echo "        <div class='col-lg-1'>";
+    echo "            &nbsp;";
+    echo "        </div>";
+    echo "        <div class='col-lg-1'>";
+    echo "            &nbsp;";
+    echo "        </div>";
+    echo "        <div class='col-lg-3'>";
+    echo "            <h4>Bruna Tavares - CRP 05/46571</h4>";
+    echo "            <img src='../img/avatar.png' alt='Perfil 2' class='align-left' width='320' height='250' />";
     echo "            <p style='text-align: justify;'>";
-    echo "              <strong>Formada em Psicologia na Estácio de Sá e doutorada em Psicoterapia</strong>, elaborou longos anos de estudo de transtornos baseado aos públicos infantil, infanto-juvenil, juvenil e adultos.";
+    echo "              <strong>Psicóloga</strong>, informações.";
     echo "            </p>";
     echo "        </div>";
-    echo "        <div class='col-lg-4'>";
-    echo "            <h4>Perfil 2</h4>";
-    echo "            <img src='../img/avatar.png' alt='Perfil 2' class='align-left' width='320' height='320' />";
-    echo "            <p style='text-align: justify;'>";
-    echo "              <strong>Título</strong>, informações.";
-    echo "            </p>";
-    echo "        </div>";
-    echo "        <div class='col-lg-4'>";
-    echo "            <h4>Perfil 3</h4>";
-    echo "            <img src='../img/avatar.png' alt='Perfil 3' class='align-left' width='320' height='320' />";
-    echo "            <p style='text-align: justify;'>";
-    echo "              <strong>Título</strong>, informações.";
-    echo "            </p>";
-    echo "        </div>";
+//    echo "        <div class='col-lg-4'>";
+//    echo "            <h4>Perfil 3</h4>";
+//    echo "            <img src='../img/avatar.png' alt='Perfil 3' class='align-left' width='320' height='320' />";
+//    echo "            <p style='text-align: justify;'>";
+//    echo "              <strong>Título</strong>, informações.";
+//    echo "            </p>";
+ //   echo "        </div>";
     echo "    </div>";
     echo "</div>";
 //    echo "</section>";

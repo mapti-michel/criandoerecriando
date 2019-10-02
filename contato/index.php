@@ -58,8 +58,10 @@ and open the template in the editor.
 	-->
 	<section id="content">
 	<div class="map" style="padding-top: 55px;">
-		<iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Kuningan,+Jakarta+Capital+Region,+Indonesia&amp;aq=3&amp;oq=kuningan+&amp;sll=37.0625,-95.677068&amp;sspn=37.410045,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Kuningan&amp;t=m&amp;z=14&amp;ll=-6.238824,106.830177&amp;output=embed">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.99239783872!2d-43.23898488431186!3d-22.913651243878274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e666c271011%3A0x4272cc0d5e73b818!2sBoulevard%2028%20de%20Setembro%2C%2044%20-%20Maracan%C3%A3%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020551-031!5e0!3m2!1spt-BR!2sbr!4v1569900848420!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
 		</iframe>
+<!--		<iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Kuningan,+Jakarta+Capital+Region,+Indonesia&amp;aq=3&amp;oq=kuningan+&amp;sll=37.0625,-95.677068&amp;sspn=37.410045,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Kuningan&amp;t=m&amp;z=14&amp;ll=-6.238824,106.830177&amp;output=embed">
+		</iframe>-->
 	</div>
 	<div class="container">
 		<div class="row">
@@ -73,9 +75,8 @@ and open the template in the editor.
 						<div class="col-lg-4 field">
 							<select class="form-control">
 							  <option value="">Quero falar com ...</option>
-							  <option value="renata">Renata</option>
-							  <option value="perfil2">Perfil 2</option>
-							  <option value="perfil3">Perfil 3</option>
+							  <option value="renata">Renata Neumann, psicóloga e psicopedagoga</option>
+							  <option value="perfil2">Bruna Tavares, psicóloga</option>
 							  <option value="atend">Ninguém, só quero tirar uma dúvida :)</option>
 							</select>
 						</div>

@@ -40,9 +40,8 @@ and open the template in the editor.
 	<!-- start header -->
 	<header>
             <?php
-                $conteudo->telaTopClass("profis");
+                $conteudo->telaTopClass("consult");
             ?>
-        
     </header>
 	<!-- end header -->
 	<section id="featured" style="background-color: #ffffff;">
@@ -112,28 +111,9 @@ and open the template in the editor.
 		</div>
 	</div>	
 	
-	<?php
-		echo $conteudo->contentProf();
-
-	?>
 	
 
 	</section>
-<!--
-	<section class="callaction">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="big-cta">
-					<div class="cta-text">
-						<h2>Consultório de <span>Psicologia</span> e <span>Psicopedagogia</span></h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</section>
--->
 
 <?php
 
