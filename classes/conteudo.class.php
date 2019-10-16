@@ -118,13 +118,13 @@ class conteudo {
         echo "              <span class='icon-bar'></span>";
         echo "              <span class='icon-bar'></span>";
         echo "          </button>";
-        echo "          <a class='navbar-brand' href='../index.php' style='margin-top: 0px;'>";
+        echo "          <a class='navbar-brand' href='index.php' style='margin-top: 0px;'>";
         echo "              <img src='../img/logoRosto.png' title='' alt='' width='150' height='150'>&nbsp;";
         echo "          </a>";
-        echo "          <a class='navbar-brand' href='index.php' style='padding-left: 5%;'>";
+        echo "          <a class='navbar-brand' href='index.php' style='padding-left: 5%; color: #e5e619;'>";
         echo "              <span style='color: rgba(255, 38, 255, 0.7);'>Crian</span>do</span><br>";//rgba(255, 255, 0, 0.7);
         echo "              <span style='color: rgba(9, 133, 238, 0.9);'>E</span><br>";
-        echo "              <span style='color: rgba(9, 133, 238, 0.9);'>Re</span>criando ";
+        echo "              <span style='color: rgba(9, 133, 238, 0.9);'>Recr</span>iando ";
 //        echo "              <span style='color: rgba(9, 133, 238, 0.9);'>P</span>sicopedagogia";
         echo "          </a>";
         echo "          <a class='navbar-brand' href='index.php' style='padding-left: 38%; font-size: 10px; padding-top: 5%;'>";
@@ -420,7 +420,14 @@ class conteudo {
     }
 
 
-    function pageFooter(){
+    function pageFooter($page){
+
+        if($page == "home"){
+            $link = " ";
+        }else{
+            $link = "../";
+        }
+
     echo "<footer style='background-color: rgba(9, 133, 238, 0.9);'>";
     echo "  <div class='container'>";
     echo "      <div class='row'>";
@@ -443,22 +450,22 @@ class conteudo {
     echo "                    <h5 class='widgetheading'>Páginas</h5>";
     echo "                    <ul class='link-list'>";
     echo "                      <li>";
-    echo "                          <a href='/institucional/'>";
+    echo "                          <a href='".$link."consultorio/'>";
     echo "                              Consultório";
     echo "                          </a>";
     echo "                      </li>";
     echo "                      <li>";
-    echo "                          <a href='/especialidades/'>";
+    echo "                          <a href='".$link."especialidades/'>";
     echo "                              Especialidades";
     echo "                          </a>";
     echo "                      </li>";
     echo "                      <li>";
-    echo "                          <a href='/profissionais/'>";
+    echo "                          <a href='".$link."profissionais/'>";
     echo "                              Profissionais";
     echo "                          </a>";
     echo "                      </li>";
     echo "                      <li>";
-    echo "                          <a href='/contato/'>";
+    echo "                          <a href='".$link."contato/'>";
     echo "                              Fale com a gente";
     echo "                          </a>";
     echo "                      </li>";

@@ -27,11 +27,17 @@ and open the template in the editor.
 <link href="../css/flexslider.css" rel="stylesheet" />
 <link href="../css/style.css" rel="stylesheet" />
 
+
 <link rel="shortcut icon" href="../img/logoCR.ico">
 <link rel="icon" type="image/png" href="../img/logoRosto.png">
 
 
 <link href="../skins/default.css" rel="stylesheet" />
+
+<!-- ZOOM-->
+
+<!-- FIM ZOOM-->
+
 
 </head>
 <body>
@@ -109,27 +115,55 @@ and open the template in the editor.
 	<!-- end slider -->
 			</div>
 		</div>
+        <div id="gallery" style="background-color: #fff;">
+            <a href="../img/consult/img1.jpg" class="jqzoom" title="Imagem 1">
+                <img src="../img/consult/cons1.jpg" title="Imagem 1" width="100" height="100" />
+            </a>
+            <a href="../img/consult/img2.jpg" class="jqzoom" title="Imagem 2">
+                <img src="../img/consult/cons2.jpg" title="Imagem 2" width="100" height="100" />
+            </a>
+            <a href="../img/consult/img3.jpg" class="jqzoom" title="Imagem 3">
+                <img src="../img/consult/cons3.jpg" title="Imagem 3" width="100" height="100" />
+            </a>
+            <a href="../img/consult/img4.jpg" class="jqzoom" title="Imagem 4">
+                <img src="../img/consult/cons4.jpg" title="Imagem 4" width="100" height="100" />
+            </a>
+            <a href="../img/consult/img5.jpg" class="jqzoom" title="Imagem 5">
+                <img src="../img/consult/cons5.jpg" title="Imagem 5" width="100" height="100" />
+            </a>
+            <a href="../img/consult/img6.jpg" class="jqzoom" title="Imagem 6">
+                <img src="../img/consult/cons6.jpg" title="Imagem 6" width="100" height="100" />
+            </a>
+            <a href="../img/consult/img7.jpg" class="jqzoom" title="Imagem 7">
+                <img src="../img/consult/cons7.jpg" title="Imagem 7" width="100" height="100" />
+            </a>
+        </div>
 	</div>	
-	
-	
 
 	</section>
+
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="solidline">
+			</div>
+		</div>
+	</div> 	
 
 <?php
 
 	$conteudo->pageDownSlides("");
 
 ?>
-		<!-- divider -->
+		<!-- divider
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="solidline">
 				</div>
 			</div>
 		</div> 
-		<!-- end divider -->
+		 end divider -->
 	<?php
-		$conteudo->pageFooter();
+		$conteudo->pageFooter("");
 	?>
 
 </div>
@@ -137,6 +171,9 @@ and open the template in the editor.
 <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+
+
+
 <script src="../js/jquery.js"></script>
 <script src="../js/jquery.easing.1.3.js"></script>
 <script src="../js/bootstrap.min.js"></script>
@@ -148,5 +185,7 @@ and open the template in the editor.
 <script src="../js/jquery.flexslider.js"></script>
 <script src="../js/animate.js"></script>
 <script src="../js/custom.js"></script>
+
+
 </body>
 </html>

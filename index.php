@@ -132,19 +132,21 @@ and open the template in the editor.
 -->
 <!--	<section id="content">-->
 
+	<!-- divider -->
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="solidline">
+			</div>
+		</div>
+	</div> 
+	<!-- end divider -->
+
 <?php
 
 	$conteudo->pageDownSlides("home");
 
 ?>
-		<!-- divider -->
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="solidline">
-				</div>
-			</div>
-		</div> 
-		<!-- end divider -->
+
 		<!-- Portfolio Projects -->
 <!--		<div class="row">
 			<div class="col-lg-12">
@@ -209,7 +211,7 @@ and open the template in the editor.
 <!--	</section>-->
 
 	<?php
-		$conteudo->pageFooter();
+		$conteudo->pageFooter("home");
 	?>
 
 <!--

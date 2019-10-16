@@ -119,107 +119,23 @@ and open the template in the editor.
 	</div>
 	</section>
 
-<?php
-
-	$conteudo->pageDownSlides("");
-
-?>
-	<section id="content">-->
-
-		<!-- divider -->
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="solidline">
 				</div>
 			</div>
-		</div> 
-		<!-- end divider -->
+		</div> 	
 
+<?php
 
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="box">
-							<div class="box-gray aligncenter">
-								<h4>Insttitucional</h4>
-								<div class="icon">
-									<i class="fa fa-desktop fa-3x"></i>
-								</div>
-								<p>
-								 	Saiba quem são os profissionais do nosso consultório
-								</p>
-									
-							</div>
-							<div class="box-bottom" style="background-color: rgba(9, 133, 238, 0.7);">
-								<a href="#">Clique aqui</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3">
-					<!-- &nbsp; -->
-						<div class="box">
-							<div class="box-gray aligncenter">
-								<h4>Serviços</h4>
-								<div class="icon">
-									<i class="fa fa-pagelines fa-3x"></i>
-								</div>
-								<p>
-									Conheça os nossos serviços e especialidades.
-								</p>
-									
-							</div>
-							<div class="box-bottom" style="background-color: rgba(9, 133, 238, 0.7); div:hover: rgba(9, 133, 238, 0.7)">
-								<a href="#">Clique aqui</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3">
-						<div class="box">
-							<div class="box-gray aligncenter">
-								<h4>Especialidades</h4>
-								<div class="icon">
-									<i class="fa fa-edit fa-3x"></i>
-								</div>
-								<p>
-									Conheça os nossos profissionais de saúde e suas especialidades.
-								</p>
-									
-							</div>
-							<div class="box-bottom" style="background-color: rgba(9, 133, 238, 0.7);">
-								<a href="#">Clique aqui</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3">
-						<div class="box">
-							<div class="box-gray aligncenter">
-								<h4>Dicas de saúde</h4>
-								<div class="icon">
-									<i class="fa fa-code fa-3x"></i>
-								</div>
-								<p>
-								 Conheça as nossas dicas para a sua saúde.
-								</p>
-									
-							</div>
-							<div class="box-bottom" style="background-color: rgba(9, 133, 238, 0.7);">
-								<a href="#">Clique aqui</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Portfolio Projects -->
+	$conteudo->pageDownSlides("");
 
+?>
 
-	</div>
 
 	<?php
 
-	$conteudo->pagefooter();
+	$conteudo->pagefooter("");
 
 	?>
 <!-- javascript

@@ -2,9 +2,18 @@
 
 <?php
 require_once "../classes/conteudo.class.php";
-
+require_once "../classes/send.class.php";
+require_once '../phpmailer/class.phpmailer.php';
+require_once '../phpmailer/class.smtp.php';
+require_once '../phpmailer/class.pop3.php';
+require_once '../phpmailer/class.phpmaileroauth.php';
+require_once '../phpmailer/PHPMailerAutoload.php';
 
 $conteudo = new conteudo();
+$s = new send();
+
+
+
 
 ?>
 
@@ -38,9 +47,9 @@ and open the template in the editor.
 <div id="wrapper">
 	<!-- start header -->
 	<header>
-            <?php
-                $conteudo->telaTopClass("cont");
-            ?>
+        <?php
+            $conteudo->telaTopClass("cont");
+        ?>
 	</header>
 	<!-- end header 
 	<section id="inner-headline">
@@ -67,7 +76,7 @@ and open the template in the editor.
 		<div class="row">
 			<div class="col-lg-12">
 				<h4>Selecione o(a) profissional e preencha os campos. <strong>Teremos o prazer em retornar em breve</strong></h4>
-				<form id="contactform" action="contact/contact.php" method="post" class="validateform" name="send-contact">
+				<form id="contactform" action="#" method="post" class="validateform" name="send-contact">
 					<div id="sendmessage">
 						 Sua mensagem foi enviada! Retornaremos no mais breve possível !
 					</div>
@@ -90,7 +99,7 @@ and open the template in the editor.
 							&nbsp;
 						</div>
 						<div class="col-lg-4 field" style="padding-top: 20px;">
-							<input type="text" name="name" placeholder="* Preencha seu nome aqui" data-rule="maxlen:4" data-msg="Precisamos, pelo menos, de 4 caracteres" />
+							<input type="text" name="nome" placeholder="* Preencha seu nome aqui" data-rule="maxlen:4" data-msg="Precisamos, pelo menos, de 4 caracteres" />
 							<div class="validation">
 							</div>
 						</div>
@@ -100,12 +109,12 @@ and open the template in the editor.
 							</div>
 						</div>
 						<div class="col-lg-4 field" style="padding-top: 20px;">
-							<input type="text" name="subject" placeholder="Estamos falando de..." data-rule="maxlen:4" data-msg="Digite o título" />
+							<input type="text" name="titulo" placeholder="Estamos falando de..." data-rule="maxlen:4" data-msg="Digite o título" />
 							<div class="validation">
 							</div>
 						</div>
 						<div class="col-lg-12 margintop10 field">
-							<textarea rows="12" name="message" class="input-block-level" placeholder="* Chegamos ! Digite sua mensagem..." data-rule="required" data-msg="Por favor, fale de´que precisa..."></textarea>
+							<textarea rows="12" name="conteudo" class="input-block-level" placeholder="* Chegamos ! Digite sua mensagem..." data-rule="required" data-msg="Por favor, fale de´que precisa..."></textarea>
 							<div class="validation">
 							</div>
 							<p>
@@ -115,84 +124,59 @@ and open the template in the editor.
 						</div>
 					</div>
 				</form>
+<?php
+
+if($_POST){
+
+	$nome 		= addslashes(filter_input(INPUT_POST, "nome"));
+	$email 		= addslashes(filter_input(INPUT_POST, "email"));
+	$titulo 	= addslashes(filter_input(INPUT_POST, "titulo"));
+	$msg 		= addslashes(filter_input(INPUT_POST, "conteudo"));
+
+	$s->setNome($nome);
+	$s->setEmail($email);
+	$s->setTitulo($titulo);
+	$s->setMsg($msg);
+
+	//echo "Nome: ".$nome."<br>";
+	//echo "E-mail: ".$email."<br>";
+	//echo "Título: ".$titulo."<br>";
+	//echo "Mensagem: ".$msg."<br>";
+
+	if($s->enviaMensagem()){
+		
+		if($s->enviandoRespostaAutomatica("naoresponder@mapti.com.br", $email, $nome)){
+
+			echo "		<div class='alert alert-success' role='alert'>";
+			echo "  		<p class='mb-0'>Enviado com sucesso!</p>";
+			echo "		</div>";
+			echo "		<meta http-equiv='refresh' content='5;URL=../contato/'>";
+
+		}
+	}
+//					echo "<meta http-equiv='refresh' content='0;URL=inicial.php?m=reg&tp=fogum'>";
+
+
+}
+?>				
 			</div>
 		</div>
 	</div>
 	</section>
-	<footer style="background-color: rgba(9, 133, 238, 0.9);">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Contatos</h5>
-					<address>
-					<strong>Criando e Recriando - Consultório de Psicologia e Psicopedagogia</strong><br>
-					 Av. Boulevard 28 de setembro, 44, sala 609 - Vila Isabel<br>
-					 Rio de Janeiro/RJ <br>
-					 </address>
-<!--					<p>
-						<i class="icon-phone"></i> (21) 2404-3473 <br>
-						<i class="icon-envelope-alt"></i> contato@caj.com.br
-					</p>-->
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Páginas</h5>
-					<ul class="link-list">
-						<li><a href="/institucional/">Institucional</a></li>
-						<li><a href="/servicos/">Serviços</a></li>
-						<li><a href="/profissionais/">Profissionais</a></li>
-						<li><a href="/contato/">Contato</a></li>
-<!--						<li><a href="#">Contact us</a></li> -->
-					</ul>
-				</div>
-			</div>
-			<!--<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Latest posts</h5>
-					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>-->
-			<!--<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Flickr photostream</h5>
-					<div class="flickr_badge">
-						<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
-					</div>
-					<div class="clear">
-					</div>
-				</div>
-			</div>-->
-		</div>
-	</div>
-	<div id="sub-footer" style="background-color: rgba(9, 133, 238, 0.9);">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="copyright">
-						<p>
-							<span>&copy; Criando e Recriando 2019 All right reserved. By </span><a href="http://www.mapti.com.br" target="_blank">MAP TI</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<!--<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>-->
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
-				</div>
+
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="solidline">
 			</div>
 		</div>
-	</div>
-	</footer>
+	</div> 	
+
+	<?php
+
+	$conteudo->pagefooter("");
+
+	?>
+
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
