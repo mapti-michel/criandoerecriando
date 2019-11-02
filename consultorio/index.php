@@ -35,6 +35,39 @@ and open the template in the editor.
 <link href="../skins/default.css" rel="stylesheet" />
 
 <!-- ZOOM-->
+<style>
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.text-item {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
+</style>
 
 <!-- FIM ZOOM-->
 
@@ -113,9 +146,15 @@ and open the template in the editor.
             </ul>
         </div>
 	<!-- end slider -->
-			</div>
-		</div>
-        <div id="gallery" style="background-color: #fff;">
+			</div> <!-- fecha o col-lg-12 -->
+		</div> <!-- fecha o div row -->
+        <div id="zoom">
+            <img src="../img/consult/img1.jpg" width="200" height="200" class="img-responsive">
+            <div class="text-item">
+                <h2>Título da imagem</h2>
+                
+            </div>
+            <!--
             <a href="../img/consult/img1.jpg" class="jqzoom" title="Imagem 1">
                 <img src="../img/consult/cons1.jpg" title="Imagem 1" width="100" height="100" />
             </a>
@@ -124,7 +163,8 @@ and open the template in the editor.
             </a>
             <a href="../img/consult/img3.jpg" class="jqzoom" title="Imagem 3">
                 <img src="../img/consult/cons3.jpg" title="Imagem 3" width="100" height="100" />
-            </a>
+            </a>-->
+            <!--
             <a href="../img/consult/img4.jpg" class="jqzoom" title="Imagem 4">
                 <img src="../img/consult/cons4.jpg" title="Imagem 4" width="100" height="100" />
             </a>
@@ -137,6 +177,7 @@ and open the template in the editor.
             <a href="../img/consult/img7.jpg" class="jqzoom" title="Imagem 7">
                 <img src="../img/consult/cons7.jpg" title="Imagem 7" width="100" height="100" />
             </a>
+        -->
         </div>
 	</div>	
 
