@@ -1,0 +1,256 @@
+[09-Feb-2021 16:22:39 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\criandoerecriando\lib\generate.php on line 4
+[09-Feb-2021 16:22:39 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:22:39 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:22:39 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:22:39 America/Sao_Paulo] PHP   3. session_start() C:\wamp\www\criandoerecriando\lib\generate.php:4
+[09-Feb-2021 16:22:39 America/Sao_Paulo] PHP Warning:  imagettftext(): Invalid font filename in C:\wamp\www\criandoerecriando\lib\generate.php on line 27
+[09-Feb-2021 16:22:39 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:22:39 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:22:39 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:22:39 America/Sao_Paulo] PHP   3. imagettftext() C:\wamp\www\criandoerecriando\lib\generate.php:27
+[09-Feb-2021 16:22:46 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\criandoerecriando\lib\generate.php on line 4
+[09-Feb-2021 16:22:46 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:22:46 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:22:46 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:22:46 America/Sao_Paulo] PHP   3. session_start() C:\wamp\www\criandoerecriando\lib\generate.php:4
+[09-Feb-2021 16:22:46 America/Sao_Paulo] PHP Warning:  imagettftext(): Invalid font filename in C:\wamp\www\criandoerecriando\lib\generate.php on line 27
+[09-Feb-2021 16:22:46 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:22:46 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:22:46 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:22:46 America/Sao_Paulo] PHP   3. imagettftext() C:\wamp\www\criandoerecriando\lib\generate.php:27
+[09-Feb-2021 16:23:23 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\criandoerecriando\lib\generate.php on line 4
+[09-Feb-2021 16:23:23 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:23:23 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:23:23 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:23:23 America/Sao_Paulo] PHP   3. session_start() C:\wamp\www\criandoerecriando\lib\generate.php:4
+[09-Feb-2021 16:23:23 America/Sao_Paulo] PHP Warning:  imagettftext(): Invalid font filename in C:\wamp\www\criandoerecriando\lib\generate.php on line 27
+[09-Feb-2021 16:23:23 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:23:23 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:23:23 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:23:23 America/Sao_Paulo] PHP   3. imagettftext() C:\wamp\www\criandoerecriando\lib\generate.php:27
+[09-Feb-2021 16:24:15 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\criandoerecriando\lib\generate.php on line 4
+[09-Feb-2021 16:24:15 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:24:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:24:15 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:24:15 America/Sao_Paulo] PHP   3. session_start() C:\wamp\www\criandoerecriando\lib\generate.php:4
+[09-Feb-2021 16:24:15 America/Sao_Paulo] PHP Warning:  imagettftext(): Invalid font filename in C:\wamp\www\criandoerecriando\lib\generate.php on line 27
+[09-Feb-2021 16:24:15 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:24:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:24:15 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:24:15 America/Sao_Paulo] PHP   3. imagettftext() C:\wamp\www\criandoerecriando\lib\generate.php:27
+[09-Feb-2021 16:25:01 America/Sao_Paulo] PHP Warning:  imagettftext(): Invalid font filename in C:\wamp\www\criandoerecriando\lib\generate.php on line 27
+[09-Feb-2021 16:25:01 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:25:01 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:25:01 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:25:01 America/Sao_Paulo] PHP   3. imagettftext() C:\wamp\www\criandoerecriando\lib\generate.php:27
+[09-Feb-2021 16:25:11 America/Sao_Paulo] PHP Warning:  imagettftext(): Invalid font filename in C:\wamp\www\criandoerecriando\lib\generate.php on line 27
+[09-Feb-2021 16:25:11 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:25:11 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:25:11 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:25:11 America/Sao_Paulo] PHP   3. imagettftext() C:\wamp\www\criandoerecriando\lib\generate.php:27
+[09-Feb-2021 16:25:16 America/Sao_Paulo] PHP Warning:  imagettftext(): Invalid font filename in C:\wamp\www\criandoerecriando\lib\generate.php on line 27
+[09-Feb-2021 16:25:16 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:25:16 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:25:16 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:25:16 America/Sao_Paulo] PHP   3. imagettftext() C:\wamp\www\criandoerecriando\lib\generate.php:27
+[09-Feb-2021 16:28:57 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\criandoerecriando\lib\generate.php on line 4
+[09-Feb-2021 16:28:57 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:28:57 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:28:57 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:28:57 America/Sao_Paulo] PHP   3. session_start() C:\wamp\www\criandoerecriando\lib\generate.php:4
+[09-Feb-2021 16:28:57 America/Sao_Paulo] PHP Warning:  imagettftext(): Invalid font filename in C:\wamp\www\criandoerecriando\lib\generate.php on line 27
+[09-Feb-2021 16:28:57 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:28:57 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:28:57 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:28:57 America/Sao_Paulo] PHP   3. imagettftext() C:\wamp\www\criandoerecriando\lib\generate.php:27
+[09-Feb-2021 16:29:00 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\criandoerecriando\lib\generate.php on line 4
+[09-Feb-2021 16:29:00 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:29:00 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:29:00 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:29:00 America/Sao_Paulo] PHP   3. session_start() C:\wamp\www\criandoerecriando\lib\generate.php:4
+[09-Feb-2021 16:29:00 America/Sao_Paulo] PHP Warning:  imagettftext(): Invalid font filename in C:\wamp\www\criandoerecriando\lib\generate.php on line 27
+[09-Feb-2021 16:29:00 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:29:00 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:29:00 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:29:00 America/Sao_Paulo] PHP   3. imagettftext() C:\wamp\www\criandoerecriando\lib\generate.php:27
+[09-Feb-2021 16:31:30 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\criandoerecriando\lib\generate.php on line 4
+[09-Feb-2021 16:31:30 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:31:30 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:31:30 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:31:30 America/Sao_Paulo] PHP   3. session_start() C:\wamp\www\criandoerecriando\lib\generate.php:4
+[09-Feb-2021 16:31:30 America/Sao_Paulo] PHP Warning:  imagettftext(): Invalid font filename in C:\wamp\www\criandoerecriando\lib\generate.php on line 27
+[09-Feb-2021 16:31:30 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:31:30 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:31:30 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:31:30 America/Sao_Paulo] PHP   3. imagettftext() C:\wamp\www\criandoerecriando\lib\generate.php:27
+[09-Feb-2021 16:32:34 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\criandoerecriando\lib\generate.php on line 4
+[09-Feb-2021 16:32:34 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:32:34 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:32:34 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:32:34 America/Sao_Paulo] PHP   3. session_start() C:\wamp\www\criandoerecriando\lib\generate.php:4
+[09-Feb-2021 16:32:34 America/Sao_Paulo] PHP Warning:  imagettftext(): Invalid font filename in C:\wamp\www\criandoerecriando\lib\generate.php on line 27
+[09-Feb-2021 16:32:34 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 16:32:34 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 16:32:34 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 16:32:34 America/Sao_Paulo] PHP   3. imagettftext() C:\wamp\www\criandoerecriando\lib\generate.php:27
+[09-Feb-2021 22:46:47 America/Sao_Paulo] PHP Fatal error:  Call to undefined function criaXML() in C:\wamp\www\criandoerecriando\contato\index.php on line 46
+[09-Feb-2021 22:46:47 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 22:46:47 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 22:52:22 America/Sao_Paulo] PHP Fatal error:  Call to undefined function criaXML() in C:\wamp\www\criandoerecriando\contato\index.php on line 46
+[09-Feb-2021 22:52:22 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 22:52:22 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 22:53:22 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\criandoerecriando\lib\generate.php on line 4
+[09-Feb-2021 22:53:22 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 22:53:22 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 22:53:22 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 22:53:22 America/Sao_Paulo] PHP   3. session_start() C:\wamp\www\criandoerecriando\lib\generate.php:4
+[09-Feb-2021 22:53:22 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\criandoerecriando\lib\generate.php on line 4
+[09-Feb-2021 22:53:22 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 22:53:22 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 22:53:22 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 22:53:22 America/Sao_Paulo] PHP   3. session_start() C:\wamp\www\criandoerecriando\lib\generate.php:4
+[09-Feb-2021 22:53:43 America/Sao_Paulo] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\criandoerecriando\lib\generate.php on line 4
+[09-Feb-2021 22:53:43 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 22:53:43 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 22:53:43 America/Sao_Paulo] PHP   2. require_once() C:\wamp\www\criandoerecriando\contato\index.php:16
+[09-Feb-2021 22:53:43 America/Sao_Paulo] PHP   3. session_start() C:\wamp\www\criandoerecriando\lib\generate.php:4
+[09-Feb-2021 22:57:33 America/Sao_Paulo] PHP Warning:  require_once(../classes/class.sendmessage.php): failed to open stream: No such file or directory in C:\wamp\www\criandoerecriando\contato\index.php on line 16
+[09-Feb-2021 22:57:33 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 22:57:33 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 22:57:33 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../classes/class.sendmessage.php' (include_path='.;C:\php\pear') in C:\wamp\www\criandoerecriando\contato\index.php on line 16
+[09-Feb-2021 22:57:33 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 22:57:33 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 23:03:48 America/Sao_Paulo] PHP Warning:  DOMDocument::createTextNode() expects parameter 1 to be string, object given in C:\wamp\www\criandoerecriando\contato\class.sendmessage.php on line 320
+[09-Feb-2021 23:03:48 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 23:03:48 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 23:03:48 America/Sao_Paulo] PHP   2. sendmessage->criaXML() C:\wamp\www\criandoerecriando\contato\index.php:49
+[09-Feb-2021 23:03:48 America/Sao_Paulo] PHP   3. DOMDocument->createTextNode() C:\wamp\www\criandoerecriando\contato\class.sendmessage.php:320
+[09-Feb-2021 23:03:48 America/Sao_Paulo] PHP Notice:  Undefined variable: campo_falarcom in C:\wamp\www\criandoerecriando\contato\class.sendmessage.php on line 330
+[09-Feb-2021 23:03:48 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 23:03:48 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 23:03:48 America/Sao_Paulo] PHP   2. sendmessage->criaXML() C:\wamp\www\criandoerecriando\contato\index.php:49
+[09-Feb-2021 23:03:48 America/Sao_Paulo] PHP Fatal error:  Call to a member function appendChild() on a non-object in C:\wamp\www\criandoerecriando\contato\class.sendmessage.php on line 330
+[09-Feb-2021 23:03:48 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 23:03:48 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 23:03:48 America/Sao_Paulo] PHP   2. sendmessage->criaXML() C:\wamp\www\criandoerecriando\contato\index.php:49
+[09-Feb-2021 23:08:57 America/Sao_Paulo] PHP Warning:  DOMDocument::createTextNode() expects parameter 1 to be string, object given in C:\wamp\www\criandoerecriando\contato\class.sendmessage.php on line 320
+[09-Feb-2021 23:08:57 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 23:08:57 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 23:08:57 America/Sao_Paulo] PHP   2. sendmessage->criaXML() C:\wamp\www\criandoerecriando\contato\index.php:49
+[09-Feb-2021 23:08:57 America/Sao_Paulo] PHP   3. DOMDocument->createTextNode() C:\wamp\www\criandoerecriando\contato\class.sendmessage.php:320
+[09-Feb-2021 23:08:57 America/Sao_Paulo] PHP Notice:  Undefined variable: campo_falarcom in C:\wamp\www\criandoerecriando\contato\class.sendmessage.php on line 330
+[09-Feb-2021 23:08:57 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 23:08:57 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 23:08:57 America/Sao_Paulo] PHP   2. sendmessage->criaXML() C:\wamp\www\criandoerecriando\contato\index.php:49
+[09-Feb-2021 23:08:57 America/Sao_Paulo] PHP Fatal error:  Call to a member function appendChild() on a non-object in C:\wamp\www\criandoerecriando\contato\class.sendmessage.php on line 330
+[09-Feb-2021 23:08:57 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 23:08:57 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[09-Feb-2021 23:08:57 America/Sao_Paulo] PHP   2. sendmessage->criaXML() C:\wamp\www\criandoerecriando\contato\index.php:49
+[09-Feb-2021 23:09:13 America/Sao_Paulo] PHP Fatal error:  Call to undefined function geraLink() in C:\wamp\www\criandoerecriando\contato\index.php on line 51
+[09-Feb-2021 23:09:13 America/Sao_Paulo] PHP Stack trace:
+[09-Feb-2021 23:09:13 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[10-Feb-2021 13:11:02 America/Sao_Paulo] PHP Fatal error:  Call to undefined function geraLink() in C:\wamp\www\criandoerecriando\contato\index.php on line 52
+[10-Feb-2021 13:11:02 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 13:11:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[10-Feb-2021 13:25:28 America/Sao_Paulo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\wamp\www\criandoerecriando\contato\index.php:5) in C:\wamp\www\criandoerecriando\contato\index.php on line 14
+[10-Feb-2021 13:25:28 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 13:25:28 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[10-Feb-2021 13:25:28 America/Sao_Paulo] PHP   2. session_start() C:\wamp\www\criandoerecriando\contato\index.php:14
+[10-Feb-2021 13:25:28 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp\www\criandoerecriando\contato\index.php:5) in C:\wamp\www\criandoerecriando\contato\index.php on line 63
+[10-Feb-2021 13:25:28 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 13:25:28 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[10-Feb-2021 13:25:28 America/Sao_Paulo] PHP   2. header() C:\wamp\www\criandoerecriando\contato\index.php:63
+[10-Feb-2021 13:26:40 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() expects parameter 2 to be DateTimeZone, boolean given' in C:\wamp\www\criandoerecriando\contato\index.php:44
+Stack trace:
+#0 C:\wamp\www\criandoerecriando\contato\index.php(44): DateTime->__construct('now', true)
+#1 {main}
+  thrown in C:\wamp\www\criandoerecriando\contato\index.php on line 44
+[10-Feb-2021 13:28:01 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() expects parameter 2 to be DateTimeZone, boolean given' in C:\wamp\www\criandoerecriando\contato\index.php:44
+Stack trace:
+#0 C:\wamp\www\criandoerecriando\contato\index.php(44): DateTime->__construct('now', true)
+#1 {main}
+  thrown in C:\wamp\www\criandoerecriando\contato\index.php on line 44
+[10-Feb-2021 13:56:20 America/Sao_Paulo] PHP Notice:  Undefined variable: send in C:\wamp\www\criandoerecriando\contato\index.php on line 61
+[10-Feb-2021 13:56:20 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 13:56:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[10-Feb-2021 13:56:20 America/Sao_Paulo] PHP Fatal error:  Call to a member function enviaConfirmacao() on a non-object in C:\wamp\www\criandoerecriando\contato\index.php on line 61
+[10-Feb-2021 13:56:20 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 13:56:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[10-Feb-2021 13:56:59 America/Sao_Paulo] PHP Warning:  require_once(../phpmailer/src/PHPMailer.php): failed to open stream: No such file or directory in C:\wamp\www\criandoerecriando\contato\class.sendmessage.php on line 190
+[10-Feb-2021 13:56:59 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 13:56:59 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[10-Feb-2021 13:56:59 America/Sao_Paulo] PHP   2. sendmessage->enviaConfirmacao() C:\wamp\www\criandoerecriando\contato\index.php:61
+[10-Feb-2021 13:56:59 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../phpmailer/src/PHPMailer.php' (include_path='.;C:\php\pear') in C:\wamp\www\criandoerecriando\contato\class.sendmessage.php on line 190
+[10-Feb-2021 13:56:59 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 13:56:59 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[10-Feb-2021 13:56:59 America/Sao_Paulo] PHP   2. sendmessage->enviaConfirmacao() C:\wamp\www\criandoerecriando\contato\index.php:61
+[10-Feb-2021 14:48:09 America/Sao_Paulo] PHP Warning:  require_once(../phpmailer/src/PHPMailer.php): failed to open stream: No such file or directory in C:\wamp\www\criandoerecriando\contato\class.sendmessage.php on line 190
+[10-Feb-2021 14:48:09 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 14:48:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[10-Feb-2021 14:48:09 America/Sao_Paulo] PHP   2. sendmessage->enviaConfirmacao() C:\wamp\www\criandoerecriando\contato\index.php:61
+[10-Feb-2021 14:48:09 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../phpmailer/src/PHPMailer.php' (include_path='.;C:\php\pear') in C:\wamp\www\criandoerecriando\contato\class.sendmessage.php on line 190
+[10-Feb-2021 14:48:09 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 14:48:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[10-Feb-2021 14:48:09 America/Sao_Paulo] PHP   2. sendmessage->enviaConfirmacao() C:\wamp\www\criandoerecriando\contato\index.php:61
+[10-Feb-2021 14:48:14 America/Sao_Paulo] PHP Warning:  require_once(../phpmailer/src/PHPMailer.php): failed to open stream: No such file or directory in C:\wamp\www\criandoerecriando\contato\class.sendmessage.php on line 190
+[10-Feb-2021 14:48:14 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 14:48:14 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[10-Feb-2021 14:48:14 America/Sao_Paulo] PHP   2. sendmessage->enviaConfirmacao() C:\wamp\www\criandoerecriando\contato\index.php:61
+[10-Feb-2021 14:48:14 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../phpmailer/src/PHPMailer.php' (include_path='.;C:\php\pear') in C:\wamp\www\criandoerecriando\contato\class.sendmessage.php on line 190
+[10-Feb-2021 14:48:14 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 14:48:14 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[10-Feb-2021 14:48:14 America/Sao_Paulo] PHP   2. sendmessage->enviaConfirmacao() C:\wamp\www\criandoerecriando\contato\index.php:61
+[11-Feb-2021 14:25:47 America/Sao_Paulo] PHP Fatal error:  Call to undefined function ase64_decode() in C:\wamp\www\criandoerecriando\contato\index.php on line 214
+[11-Feb-2021 14:25:47 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 14:25:47 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[11-Feb-2021 15:40:36 America/Sao_Paulo] PHP Notice:  Undefined index: email_cookie in C:\wamp\www\criandoerecriando\contato\index.php on line 172
+[11-Feb-2021 15:40:36 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 15:40:36 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[11-Feb-2021 15:46:16 America/Sao_Paulo] PHP Notice:  Undefined index: email_cookie in C:\wamp\www\criandoerecriando\contato\index.php on line 174
+[11-Feb-2021 15:46:16 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 15:46:16 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[11-Feb-2021 15:46:16 America/Sao_Paulo] PHP Notice:  Undefined index: email_cookie in C:\wamp\www\criandoerecriando\contato\index.php on line 177
+[11-Feb-2021 15:46:16 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 15:46:16 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[11-Feb-2021 15:47:53 America/Sao_Paulo] PHP Notice:  Undefined index: email_cookie in C:\wamp\www\criandoerecriando\contato\index.php on line 174
+[11-Feb-2021 15:47:53 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 15:47:53 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[11-Feb-2021 15:47:53 America/Sao_Paulo] PHP Notice:  Undefined index: email_cookie in C:\wamp\www\criandoerecriando\contato\index.php on line 177
+[11-Feb-2021 15:47:53 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 15:47:53 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[11-Feb-2021 15:48:15 America/Sao_Paulo] PHP Notice:  Undefined index: email_cookie in C:\wamp\www\criandoerecriando\contato\index.php on line 177
+[11-Feb-2021 15:48:15 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 15:48:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[11-Feb-2021 15:59:40 America/Sao_Paulo] PHP Notice:  Undefined index: email_cookie in C:\wamp\www\criandoerecriando\contato\index.php on line 178
+[11-Feb-2021 15:59:40 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 15:59:40 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[11-Feb-2021 16:00:59 America/Sao_Paulo] PHP Notice:  Undefined index: email_cookie in C:\wamp\www\criandoerecriando\contato\index.php on line 178
+[11-Feb-2021 16:00:59 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 16:00:59 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[11-Feb-2021 16:04:58 America/Sao_Paulo] PHP Notice:  Undefined index: email_cookie in C:\wamp\www\criandoerecriando\contato\index.php on line 178
+[11-Feb-2021 16:04:58 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 16:04:58 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[19-Feb-2021 22:40:44 America/Sao_Paulo] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\wamp\www\criandoerecriando\phpmailer\src\SMTP.php on line 1199
+[19-Feb-2021 22:40:44 America/Sao_Paulo] PHP Stack trace:
+[19-Feb-2021 22:40:44 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[19-Feb-2021 22:40:44 America/Sao_Paulo] PHP   2. sendmessage->enviaConfirmacao() C:\wamp\www\criandoerecriando\contato\index.php:97
+[19-Feb-2021 22:40:44 America/Sao_Paulo] PHP   3. PHPMailer\PHPMailer\PHPMailer->send() C:\wamp\www\criandoerecriando\classes\class.sendmessage.php:284
+[19-Feb-2021 22:40:44 America/Sao_Paulo] PHP   4. PHPMailer\PHPMailer\PHPMailer->postSend() C:\wamp\www\criandoerecriando\phpmailer\src\PHPMailer.php:1436
+[19-Feb-2021 22:40:44 America/Sao_Paulo] PHP   5. PHPMailer\PHPMailer\PHPMailer->smtpSend() C:\wamp\www\criandoerecriando\phpmailer\src\PHPMailer.php:1600
+[19-Feb-2021 22:40:44 America/Sao_Paulo] PHP   6. PHPMailer\PHPMailer\SMTP->data() C:\wamp\www\criandoerecriando\phpmailer\src\PHPMailer.php:1888
+[19-Feb-2021 22:40:44 America/Sao_Paulo] PHP   7. PHPMailer\PHPMailer\SMTP->sendCommand() C:\wamp\www\criandoerecriando\phpmailer\src\SMTP.php:765
+[19-Feb-2021 22:40:44 America/Sao_Paulo] PHP   8. PHPMailer\PHPMailer\SMTP->get_lines() C:\wamp\www\criandoerecriando\phpmailer\src\SMTP.php:976
+[19-Feb-2021 23:27:09 America/Sao_Paulo] PHP Warning:  Missing argument 11 for sendmessage::criaXML(), called in C:\wamp\www\criandoerecriando\contato\index.php on line 91 and defined in C:\wamp\www\criandoerecriando\classes\class.sendmessage.php on line 309
+[19-Feb-2021 23:27:09 America/Sao_Paulo] PHP Stack trace:
+[19-Feb-2021 23:27:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[19-Feb-2021 23:27:09 America/Sao_Paulo] PHP   2. sendmessage->criaXML() C:\wamp\www\criandoerecriando\contato\index.php:91
+[19-Feb-2021 23:27:09 America/Sao_Paulo] PHP Notice:  Undefined variable: navegador in C:\wamp\www\criandoerecriando\classes\class.sendmessage.php on line 336
+[19-Feb-2021 23:27:09 America/Sao_Paulo] PHP Stack trace:
+[19-Feb-2021 23:27:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[19-Feb-2021 23:27:09 America/Sao_Paulo] PHP   2. sendmessage->criaXML() C:\wamp\www\criandoerecriando\contato\index.php:91
+[04-Mar-2021 11:09:27 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}' in C:\wamp\www\criandoerecriando\classes\class.sendmessage.php on line 480
+[04-Mar-2021 11:09:27 America/Sao_Paulo] PHP Stack trace:
+[04-Mar-2021 11:09:27 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0
+[08-Mar-2021 16:58:05 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"<meta http-equiv='refresh' co' (T_CONSTANT_ENCAPSED_STRING) in C:\wamp\www\criandoerecriando\classes\class.sendmessage.php on line 182
+[08-Mar-2021 16:58:05 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 16:58:05 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\index.php:0

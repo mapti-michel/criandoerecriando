@@ -22,7 +22,7 @@ class conteudo {
         echo "              <span class='icon-bar'></span>";
         echo "              <span class='icon-bar'></span>";
         echo "          </button>";
-        echo "          <a class='navbar-brand' href='index.php' style='margin-top: 0px;'>";
+        echo "          <a class='navbar-brand' href='http://www.criandoerecriando.com.br/' style='margin-top: 0px;'>";
         echo "              <img src='img/logoRosto.png' title='' alt='' width='150' height='150'>&nbsp;";
         echo "          </a>";
         echo "          <a class='navbar-brand' href='index.php' style='padding-left: 5%; color: #e5e619;'>";
@@ -31,7 +31,7 @@ class conteudo {
         echo "              <span style='color: rgba(9, 133, 238, 0.9);'>Recr</span>iando ";
 //        echo "              <span style='color: rgba(9, 133, 238, 0.9);'>P</span>sicopedagogia";
         echo "          </a>";
-        echo "          <a class='navbar-brand' href='index.php' style='padding-left: 38%; font-size: 10px; padding-top: 5%;'>";
+        echo "          <a class='navbar-brand' href='http://www.criandoerecriando.com.br/' style='padding-left: 38%; font-size: 10px; padding-top: 5%;'>";
         echo "              <p style='color: rgba(0, 0, 0, 0.9);'>";
         echo "                  Consultório de Psicologia e Psicopedagogia";
         echo "              </p>";
@@ -45,7 +45,7 @@ class conteudo {
         echo "      </div>";
         echo "      <div class='navbar-collapse collapse'>";
         echo "      <ul class='nav navbar-nav'>";
-        echo "          <li class='active'><a href='index.php'>Home</a></li>";
+        echo "          <li class='active'><a href='http://www.criandoerecriando.com.br/'>Home</a></li>";
 //        echo "          <li class='dropdown'>";
 //        echo "              <a href='#' class='dropdown-toggle' data-toggle='dropdown' data-hover='dropdown' data-delay='0' data-close-others='false'>Institucional <span class='icon-angle-down'></span></a>";
 //        echo "                  <ul class='dropdown-menu'>";
@@ -69,6 +69,14 @@ class conteudo {
     public function telaTopClass($op){
 
         switch ($op) {
+            case '':
+                $home   = "";
+                $cons   = "";
+                $espec  = "";
+                $profis = "";
+                $cont   = "";
+                break;
+            
             case 'consult':
                 $home   = "";
                 $cons   = " class='active'";
@@ -321,9 +329,9 @@ class conteudo {
     echo "        <div class='col-lg-1'>";
     echo "            &nbsp;";
     echo "        </div>";
-    echo "          <div class='col-lg-3'>";
+    echo "          <div class='col-lg-3' style='text-align: center;'>";
+    echo "            <img src='../img/perfil_renata.jpg' alt='Renata Neumann' title='Renata Neumann' width='70%' height='70%'/>";// class='align-left'
     echo "              <h4>Renata Neumann - CRP 05/41518</h4>";
-    echo "            <img src='../img/renata.jpg' alt='Renata Neumann' title='Renata Neumann' class='align-left' width='320' height='250'/>";
     echo "              <h5>Psicóloga e Psicoterapeuta</h5>";
     echo "              <p style='text-align: justify;'>";
     echo "                  <strong>Formada em Psicologia na Estácio de Sá e pós-graduada em Psicoterapia</strong>, elaborou longos anos de estudo de transtornos baseado aos públicos infantil, infanto-juvenil, juvenil e adultos.";
@@ -336,11 +344,12 @@ class conteudo {
     echo "            &nbsp;";
     echo "        </div>";
     echo "        <div class='col-lg-3'>";
-    echo "            <h4>Bruna Tavares - CRP 05/46571</h4>";
-    echo "            <img src='../img/avatar.png' alt='Perfil 2' class='align-left' width='320' height='250' />";
-    echo "            <p style='text-align: justify;'>";
-    echo "              <strong>Psicóloga</strong>, informações.";
-    echo "            </p>";
+    echo "            &nbsp;";
+//    echo "            <h4>Bruna Tavares - CRP 05/46571</h4>";
+//    echo "            <img src='../img/avatar.png' alt='Perfil 2' class='align-left' width='320' height='250' />";
+//    echo "            <p style='text-align: justify;'>";
+//    echo "              <strong>Psicóloga clínica</strong> formada na UVA, atendendo online e presencial na Psicologia Viva. Estudou Terapia Floral de Bach na instituição de ensino Espaço Flor de Menta & Ibrape TR.";
+//    echo "            </p>";
     echo "        </div>";
 //    echo "        <div class='col-lg-4'>";
 //    echo "            <h4>Perfil 3</h4>";
@@ -355,6 +364,43 @@ class conteudo {
 
 
     }
+
+
+    function content_dicas(){
+
+        $assunto = filter_input(INPUT_GET, "a");
+
+//    echo "<section id='content'>";
+    echo "<div class='container'>";
+    echo "  <div class='row'>";
+    echo "      <div class='col-md-12'>";
+    echo "          <div class='col-md-10' style='font-weight: bold; font-size: 30px;  padding-left: 40px;'>";
+    echo "             <i class='fa fa-medkit fa-3x' style='font-size: 40px;'></i>&nbsp;DICAS DE SAÚDE";
+
+    switch ($assunto) {
+        case 'covid':
+            # code...
+            break;
+        
+        default:
+            # code...
+            break;
+    }
+
+
+
+    echo "          </div>";
+    echo "          <div class='col-md-2'>";
+    echo "              <a href='?a=covid'>";
+    echo "                  COVID-19  -  CUIDADOS";
+    echo "              </a>";
+    echo "          </div>";
+    echo "      </div>"; //fecha a div col-md-12
+    echo "  </div>";
+    echo "</div>";
+//    echo "</section>";
+    }
+
 
     function contentHome(){
 
@@ -439,10 +485,9 @@ class conteudo {
     echo "                      Av. Boulevard 28 de setembro, 44, sala 609 - Vila Isabel<br>";
     echo "                      Rio de Janeiro/RJ <br>";
     echo "                  </address>";
-    echo "                  <p>";
-    echo "                      <i class='icon-phone'></i> (21) 2404-3473 <br>";
-    echo "                      <i class='icon-envelope-alt'></i> contato@criandoerecriando.com.br";
-    echo "                  </p>";
+    echo "                  <a href='mailto:contato@criandoerecriando.com.br' alt='Será necessário usar o Microsoft Outlook para enviar.  Ou copie o e-mail para enviar.' title='Será necessário usar o Microsoft Outlook para enviar.  Ou copie o e-mail para enviar.'>";
+    echo "                      <i class='fa fa-envelope'></i>&nbsp;&nbsp;&nbsp;contato@criandoerecriando.com.br";
+    echo "                  </a>";
     echo "              </div>"; // fecha o widget
     echo "          </div>";// fecha o col-lg-3
     echo "          <div class='col-lg-3'>";
@@ -562,7 +607,7 @@ class conteudo {
 
 //        echo "Link é ".$link;
 
-    echo "<div class='container'>";
+    echo "<div class='container' style='margin-top: 40px;'>";
     echo "  <div class='row'>";
     echo "      <div class='col-lg-12'>";
     echo "          <div class='row'>";
@@ -635,6 +680,114 @@ class conteudo {
     echo "      </div>"; // fecha o col-lg-12
     echo "  </div>"; // fecha o row
     echo "</div>"; // fecha o container
+
+    }
+
+    public static function gallery(){
+
+//        echo "<div class='container gal-container'>";
+//        echo "  <div class='col-md-3 galitem'>";
+//        echo "      <div class='boxitem'>";// style='width: 100px; height: 100px;'
+
+//        for ($i=1; $i<= 14;$i++){
+        for ($i=1; $i<= 13;$i++){
+
+
+        echo "          <a href='#' data-toggle='modal' data-target='#foto".$i."' id='foto'>";
+        echo "              <img src='img_cons/img".$i.".jpg' width='15%' height='15%'>"; 
+        echo "          </a>";
+        echo "          &nbsp;&nbsp;";
+        if($i == 6 || $i ==12){
+            echo "<br><br>";
+        }
+
+        echo "<div class='modal fade' id='foto".$i."' tabindex='-1' role='dialog' aria-labelledby='exampleModalLongTitle' aria-hidden='true'>";
+        echo "  <div class='modal-dialog' role='document'>";
+        echo "      <div class='modal-content'>";
+        echo "          <div class='modal-header'>";
+        echo "              <h5 class='modal-title' id='exampleModalLongTitle'>";
+        echo "                  Foto ".$i;
+        echo "              </h5>";
+        echo "              <button type='button' class='close' data-dismiss='modal' aria-label='Close'>";
+        echo "                  <span aria-hidden='true'>&times;</span>";
+        echo "              </button>";
+        echo "          </div>";
+        echo "          <div class='modal-body'>";
+        echo "              <img src='img_cons/img".$i.".jpg' class='img-thumbnail'>";// width='15%' height='15%'
+        echo "          </div>";
+        echo "          <div class='modal-footer'>";
+        echo "              <button type='button' class='btn btn-secondary' data-dismiss='modal'>";
+        echo "                  Fechar";
+        echo "              </button>";
+//        echo "              <button type='button' class='btn btn-primary'>";
+//        echo "                  Save changes";
+//        echo "              </button>";
+        echo "          </div>";
+        echo "      </div>";
+        echo "  </div>";
+        echo "</div>";
+
+        }
+
+/*
+        echo "          <div class='modal fade' id='foto1' tabindex='-1' role='dialog'>";
+
+        echo "              <div class='modal-dialog' role='document'>";
+
+        echo "                  <div class='modal-content'>";
+
+        echo "                      <button type='button' class='close' data-dismiss='modal' aria-label='Close'>";
+        echo "                          <span aria-hidden='true'>×</span>";
+        echo "                      </button>";
+
+        echo "                      <div class='modal-body'>";
+        echo "                          <img class='img-responsive' src='img_cons/img1.jpg'>";
+        echo "                      </div>";
+
+        echo "                      <div class='col-md-12 description'>";
+        echo "                          <h4>";
+        echo "                              Sala principal";
+        echo "                          </h4>";
+        echo "                      </div>";
+
+        echo "                  </div>"; //fecha a tag div content
+
+        echo "              </div>";//fecha a tag div modal-dialog
+
+        echo "         </div>";//fecha a tag div modal-fade
+
+*/
+
+//        echo "      </div>"; // fecha a div box
+
+//        echo "  </div>"; //fecha a div col-md-8 col-sm-12 co-xs-12 gal-item
+//        echo "</div>"; // fecha a tag container gal-container
+
+
+
+/*
+        echo "<div style='margin-top:40px;'>";
+        echo "  <h3>";
+        echo "      Fotos do nosso consultório. Ambiente agradável econfortável.";
+        echo "  </h3>";
+        echo "  <div class='demo-gallery'>";
+        echo "      <ul id='lightgallery' class='list-unstyled row>";
+        echo "          <li class='col-xs-6 col-sm-4 col-md-2 col-lg-2' data-responsive='img_cons/img1.jpg' data-src='img_cons/img1.jpg' data-sub-html='<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>'>";
+        echo "              <a href='img_cons/img1.jpg' target='_blank'>";
+        echo "                  <img class='img-responsive' src='img_cons/img1.jpg' width='15%' height='15%'>";
+        echo "              </a>";
+        echo "          </li>";
+        echo "      </ul>";
+        echo "  </div>";
+        echo "</div>";
+*/
+
+    }
+
+    function page_covid(){
+
+        echo "";
+
 
     }
 

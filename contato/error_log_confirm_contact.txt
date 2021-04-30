@@ -1,0 +1,416 @@
+[10-Feb-2021 17:12:41 America/Sao_Paulo] PHP Warning:  require_once(../classes/sendmessage.class.php): failed to open stream: No such file or directory in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[10-Feb-2021 17:12:41 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 17:12:41 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[10-Feb-2021 17:12:41 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../classes/sendmessage.class.php' (include_path='.;C:\php\pear') in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[10-Feb-2021 17:12:41 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 17:12:41 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[10-Feb-2021 17:13:45 America/Sao_Paulo] PHP Warning:  require_once(../classes/sendmessage.class.php): failed to open stream: No such file or directory in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[10-Feb-2021 17:13:45 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 17:13:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[10-Feb-2021 17:13:45 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../classes/sendmessage.class.php' (include_path='.;C:\php\pear') in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[10-Feb-2021 17:13:45 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 17:13:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[10-Feb-2021 17:14:02 America/Sao_Paulo] PHP Warning:  require_once(../classes/sendmessage.class.php): failed to open stream: No such file or directory in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[10-Feb-2021 17:14:02 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 17:14:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[10-Feb-2021 17:14:02 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../classes/sendmessage.class.php' (include_path='.;C:\php\pear') in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[10-Feb-2021 17:14:02 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 17:14:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[10-Feb-2021 17:14:38 America/Sao_Paulo] PHP Warning:  require_once(../classes/class.sendmessage.php): failed to open stream: No such file or directory in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[10-Feb-2021 17:14:38 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 17:14:38 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[10-Feb-2021 17:14:38 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../classes/class.sendmessage.php' (include_path='.;C:\php\pear') in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[10-Feb-2021 17:14:38 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 17:14:38 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[10-Feb-2021 18:08:49 America/Sao_Paulo] PHP Warning:  require_once(../classes/class.sendmessage.php): failed to open stream: No such file or directory in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[10-Feb-2021 18:08:49 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 18:08:49 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[10-Feb-2021 18:08:49 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../classes/class.sendmessage.php' (include_path='.;C:\php\pear') in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[10-Feb-2021 18:08:49 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 18:08:49 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[10-Feb-2021 22:43:57 America/Sao_Paulo] PHP Warning:  require_once(../classes/class.sendmessage.php): failed to open stream: No such file or directory in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[10-Feb-2021 22:43:57 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 22:43:57 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[10-Feb-2021 22:44:00 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../classes/class.sendmessage.php' (include_path='.;C:\php\pear') in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[10-Feb-2021 22:44:00 America/Sao_Paulo] PHP Stack trace:
+[10-Feb-2021 22:44:00 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:03:02 America/Sao_Paulo] PHP Warning:  require_once(../classes/class.sendmessage.php): failed to open stream: No such file or directory in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[11-Feb-2021 00:03:02 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:03:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:03:02 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../classes/class.sendmessage.php' (include_path='.;C:\php\pear') in C:\wamp\www\criandoerecriando\contato\confirma.php on line 15
+[11-Feb-2021 00:03:02 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:03:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:05:56 America/Sao_Paulo] PHP Notice:  Undefined variable: ip in C:\wamp\www\criandoerecriando\contato\confirma.php on line 176
+[11-Feb-2021 00:05:56 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:05:56 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:05:56 America/Sao_Paulo] PHP Notice:  Undefined variable: nav in C:\wamp\www\criandoerecriando\contato\confirma.php on line 177
+[11-Feb-2021 00:05:56 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:05:56 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:26:24 America/Sao_Paulo] PHP Notice:  Undefined variable: 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ in C:\wamp\www\criandoerecriando\contato\confirma.php on line 175
+[11-Feb-2021 00:26:24 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:26:24 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:26:24 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 175
+[11-Feb-2021 00:26:24 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:26:24 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:26:24 America/Sao_Paulo] PHP Notice:  Undefined variable: 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ in C:\wamp\www\criandoerecriando\contato\confirma.php on line 177
+[11-Feb-2021 00:26:24 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:26:24 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:26:24 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 177
+[11-Feb-2021 00:26:24 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:26:24 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:28:18 America/Sao_Paulo] PHP Notice:  Undefined variable: 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ in C:\wamp\www\criandoerecriando\contato\confirma.php on line 175
+[11-Feb-2021 00:28:18 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:28:18 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:28:18 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 175
+[11-Feb-2021 00:28:18 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:28:18 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:28:18 America/Sao_Paulo] PHP Notice:  Undefined variable: 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ in C:\wamp\www\criandoerecriando\contato\confirma.php on line 177
+[11-Feb-2021 00:28:18 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:28:18 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:28:18 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 177
+[11-Feb-2021 00:28:18 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:28:18 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:29:04 America/Sao_Paulo] PHP Notice:  Undefined variable: 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ in C:\wamp\www\criandoerecriando\contato\confirma.php on line 175
+[11-Feb-2021 00:29:04 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:29:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:29:04 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 175
+[11-Feb-2021 00:29:04 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:29:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:29:04 America/Sao_Paulo] PHP Notice:  Undefined variable: 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ in C:\wamp\www\criandoerecriando\contato\confirma.php on line 177
+[11-Feb-2021 00:29:04 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:29:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[11-Feb-2021 00:29:04 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 177
+[11-Feb-2021 00:29:04 America/Sao_Paulo] PHP Stack trace:
+[11-Feb-2021 00:29:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[19-Feb-2021 23:29:15 America/Sao_Paulo] PHP Notice:  Undefined variable: prof in C:\wamp\www\criandoerecriando\contato\confirma.php on line 38
+[19-Feb-2021 23:29:15 America/Sao_Paulo] PHP Stack trace:
+[19-Feb-2021 23:29:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[19-Feb-2021 23:29:15 America/Sao_Paulo] PHP Catchable fatal error:  Object of class PHPMailer\PHPMailer\PHPMailer could not be converted to string in C:\wamp\www\criandoerecriando\classes\class.sendmessage.php on line 177
+[19-Feb-2021 23:29:15 America/Sao_Paulo] PHP Stack trace:
+[19-Feb-2021 23:29:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[19-Feb-2021 23:29:15 America/Sao_Paulo] PHP   2. sendmessage->enviaMensagem() C:\wamp\www\criandoerecriando\contato\confirma.php:38
+[08-Mar-2021 17:08:36 America/Sao_Paulo] PHP Fatal error:  Call to undefined function base_decode() in C:\wamp\www\criandoerecriando\contato\confirma.php on line 271
+[08-Mar-2021 17:08:36 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 17:08:36 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 22:05:14 America/Sao_Paulo] PHP Fatal error:  Call to undefined function base_decode() in C:\wamp\www\criandoerecriando\contato\confirma.php on line 271
+[08-Mar-2021 22:05:14 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 22:05:14 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 22:07:45 America/Sao_Paulo] PHP Fatal error:  Call to undefined method sendmessage::enviaMensagem() in C:\wamp\www\criandoerecriando\contato\confirma.php on line 40
+[08-Mar-2021 22:07:45 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 22:07:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 22:10:09 America/Sao_Paulo] PHP Notice:  Undefined variable: 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ in C:\wamp\www\criandoerecriando\contato\confirma.php on line 41
+[08-Mar-2021 22:10:09 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 22:10:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 22:10:09 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 41
+[08-Mar-2021 22:10:09 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 22:10:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:21:26 America/Sao_Paulo] PHP Notice:  Undefined variable: 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ in C:\wamp\www\criandoerecriando\contato\confirma.php on line 41
+[08-Mar-2021 23:21:26 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:21:26 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:21:26 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 41
+[08-Mar-2021 23:21:26 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:21:26 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;.xml&quot; in C:\wamp\www\criandoerecriando\contato\confirma.php on line 35
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP   2. simplexml_load_file() C:\wamp\www\criandoerecriando\contato\confirma.php:35
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 177
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 178
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 179
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 187
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 201
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 208
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 216
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 222
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:24:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:31:08 America/Sao_Paulo] PHP Notice:  Undefined variable: 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ in C:\wamp\www\criandoerecriando\contato\confirma.php on line 41
+[08-Mar-2021 23:31:08 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:31:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:31:08 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 41
+[08-Mar-2021 23:31:08 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:31:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;.xml&quot; in C:\wamp\www\criandoerecriando\contato\confirma.php on line 35
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP   2. simplexml_load_file() C:\wamp\www\criandoerecriando\contato\confirma.php:35
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 177
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 178
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 179
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 187
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 201
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 208
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 216
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 222
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:31:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;.xml&quot; in C:\wamp\www\criandoerecriando\contato\confirma.php on line 35
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP   2. simplexml_load_file() C:\wamp\www\criandoerecriando\contato\confirma.php:35
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 177
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 178
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 179
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 187
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 201
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 208
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 216
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 222
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:33:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;.xml&quot; in C:\wamp\www\criandoerecriando\contato\confirma.php on line 35
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP   2. simplexml_load_file() C:\wamp\www\criandoerecriando\contato\confirma.php:35
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 177
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 178
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 179
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 187
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 201
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 208
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 216
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 222
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP Stack trace:
+[08-Mar-2021 23:35:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;.xml&quot; in C:\wamp\www\criandoerecriando\contato\confirma.php on line 35
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP   2. simplexml_load_file() C:\wamp\www\criandoerecriando\contato\confirma.php:35
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 177
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 178
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 179
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 187
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 201
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 208
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 216
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 222
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:36:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;.xml&quot; in C:\wamp\www\criandoerecriando\contato\confirma.php on line 35
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP   2. simplexml_load_file() C:\wamp\www\criandoerecriando\contato\confirma.php:35
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 177
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 178
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 179
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 187
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 201
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 208
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 216
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 222
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP Stack trace:
+[09-Mar-2021 00:38:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;7f9f3b.xml&quot; in C:\wamp\www\criandoerecriando\contato\confirma.php on line 35
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Stack trace:
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP   2. simplexml_load_file() C:\wamp\www\criandoerecriando\contato\confirma.php:35
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 195
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Stack trace:
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 196
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Stack trace:
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 197
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Stack trace:
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 201
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Stack trace:
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 215
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Stack trace:
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 220
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Stack trace:
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 226
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Stack trace:
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\criandoerecriando\contato\confirma.php on line 232
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP Stack trace:
+[12-Mar-2021 23:01:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\criandoerecriando\contato\confirma.php:0
