@@ -331,10 +331,10 @@ class conteudo {
     echo "        </div>";
     echo "          <div class='col-lg-3' style='text-align: center;'>";
     echo "            <img src='../img/perfil_renata.jpg' alt='Renata Neumann' title='Renata Neumann' width='70%' height='70%'/>";// class='align-left'
-    echo "              <h4>Renata Neumann - CRP 05/41518</h4>";
-    echo "              <h5>Psicóloga e Psicoterapeuta</h5>";
+    echo "              <h4>Renata Neumann<br>CRP 05/41518</h4>";
+    echo "              <h5>Psicóloga e Psicopedagoga</h5>";
     echo "              <p style='text-align: justify;'>";
-    echo "                  <strong>Formada em Psicologia na Estácio de Sá e pós-graduada em Psicoterapia</strong>, elaborou longos anos de estudo de transtornos baseado aos públicos infantil, infanto-juvenil, juvenil e adultos.";
+    echo "                  <b>Formada em Psicologia na Estácio de Sá e pós-graduada em Psicopedagogia</b>, elaborou longos anos de estudo de transtornos baseado aos públicos infantil, infanto-juvenil, juvenil e adultos.";
     echo "              </p>";
     echo "        </div>";
     echo "        <div class='col-lg-1'>";
